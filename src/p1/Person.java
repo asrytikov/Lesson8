@@ -1,3 +1,5 @@
+package p1;
+
 public class Person implements Cloneable{
 
     private String name;
@@ -17,7 +19,7 @@ public class Person implements Cloneable{
     }
 
     void info(){
-        System.out.printf("Person name: %s \n", name);
+        System.out.printf("p1.Person name: %s \n", name);
     }
 
     public Person clone() throws CloneNotSupportedException{
